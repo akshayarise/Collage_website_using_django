@@ -1,0 +1,118 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<br>
+<br>
+<div>
+    <H3 style="text-align: center; font-family: 'Times New Roman', Times, serif;">Fee Details Session 2022-23</H3>
+</div>
+
+<section style="padding-bottom: 2rem; font-family: 'Times New Roman', Times, serif;">
+    <div class="container">
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            Academic Fee Details
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <table class="table table-bordered p-div">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Sr. No.</th>
+                                    <th scope="col">Branch</th>
+                                    <th scope="col">Amount(INR)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Security (One Time) Refundable</td>
+                                    <td>5,000</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Tuition Fees</td>
+                                    <td>55,000</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Book Bank (One Time)</td>
+                                    <td>5,000</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>Enrollment Fees (One Time)</td>
+                                    <td>2,300</td>
+                                </tr>
+                                <tr>
+                                    <!-- <th scope="row">3</th> -->
+                                    <td colspan="2">Total</td>
+                                    <td>67,300</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3"><h6> <span style="float:left;">*</span> Exam Fees Will be submitted by Student directly to the University.</h6></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-1">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                            aria-expanded="false" aria-controls="collapseTwo">
+                            Hostal Fee Details
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <table class="table table-bordered p-div">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Sr. No.</th>
+                                    <th scope="col">Branch</th>
+                                    <th scope="col">Amount(INR)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Security (One Time) Refundable</td>
+                                    <td>5,000</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Boarding and Lodging Charges</td>
+                                    <td>65,000</td>
+
+                                </tr>
+                                <tr>
+                                    <!-- <th scope="row">3</th> -->
+                                    <td colspan="2">Total</td>
+                                    <td>70,000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+
+</script>
+
+<!-- Fee_Structure -->
+{% endblock body %}
